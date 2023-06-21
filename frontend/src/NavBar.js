@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom';
 import './App.css';
 
 const NavBar = () => {
@@ -7,7 +7,7 @@ const NavBar = () => {
         <div className='Nav'>
             <NavLink exact path to="/"><button>Yodlr</button></NavLink>
             <NavLink exact path to="/signup"><button>Register</button></NavLink>
-            <NavLink exact path to="/users"><button>Admin</button></NavLink>
+            <NavLink exact path to="/admin"><button>Admin</button></NavLink>
         </div>
     );
 }
